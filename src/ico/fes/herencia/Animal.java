@@ -9,9 +9,9 @@ public class Animal {
     public Animal() {
     }
 
-    public Animal(int numeroPatas, String tipo, boolean pelaje, boolean domestico) {
+    public Animal(int numeroPatas, String clasificacion, boolean pelaje, boolean domestico) {
         this.numeroPatas = numeroPatas;
-        this.clasificacion = tipo;
+        this.clasificacion = clasificacion;
         this.pelaje = pelaje;
         this.domestico = domestico;
     }
@@ -36,8 +36,8 @@ public class Animal {
         return clasificacion;
     }
 
-    public void setClasificacion(String tipo) {
-        this.clasificacion = tipo;
+    public void setClasificacion(String clasificacion) {
+        this.clasificacion = clasificacion;
     }
 
     public boolean getPelaje() {
